@@ -8,6 +8,7 @@ public class PreDate {
 
         if(dateString.length() != 10){
             System.out.println("输入格式错误（长度不符）");
+
             return;
         }//健壮性代码：判定长度
 
